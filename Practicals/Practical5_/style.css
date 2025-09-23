@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* You'll add your Flexbox and Grid styles below */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.container {
+  display: grid; /* or inline-grid */
+}
+.container {
+    display: grid; /* or inline-grid */ 
+
+    /* TODO: Space items across the navbar */
+    /* TODO: Center items vertically */
+    background: #196386;
+    color: rgb(40, 252, 114);
+    padding: 1rem 2rem;
+}
+
+.nav-menu {
+    /* TODO: Make this a flex container */
+    /* TODO: Remove list styles */
+    /* TODO: Add space between menu items */
+}
+
+.nav-social {
+    /* TODO: Make this a flex container */
+    /* TODO: Add space between social links */
+}
