@@ -23,7 +23,7 @@ KHSS Website Design – Figma Practical
 
 ## Screenshots  
 ![HomePage KHSS](/Images/KHSS%20WebClone.png)<br><br>
-![Section](/Images/Organisatio%20of%20frames%20and%20components.jpeg)
+![Design Section](/Images/Organisatio%20of%20frames%20and%20components.jpeg)
 
 <br>
 
@@ -32,7 +32,7 @@ KHSS Website Design – Figma Practical
 
 
 ## 2.Project Title  
-Student Profile & Daily/Weekly Routine – HTML & CSS Practical  
+Creating a simple Student Profile Page – HTML & CSS Practical  
 
 ## Instructions  
 - Created an index.html file for the Student Profile and Routine page.  
@@ -40,7 +40,7 @@ Student Profile & Daily/Weekly Routine – HTML & CSS Practical
   - *Profile Section*: name, photo, introduction.  
   - *Daily Routine Section*: listed activities for class routine with style.  
   - *Weekly Routine Section*: represented using both ordered and unordered.
-- Styled the webpage using style.css:  
+- Styled the webpage using External-style.css:  
   - Applied colors, fonts, and spacing.   
 
 ## Guided Practical Exercises  
@@ -48,7 +48,8 @@ Student Profile & Daily/Weekly Routine – HTML & CSS Practical
 - Used CSS for styling for better view.
 - Learned to format tables for weekly routines.  
 - Improved page layout with alignment, spacing, and typography.
-## Screenshots  
+## Screenshots HTML Code and output 
 ![Code](/Images/StudentProfile.png)  
 ![Profile Section](/Images/Student%20Profile(practical).jpeg)  
+![ExternalStylingUsed](/Images/ExternalStyling.png)
 
