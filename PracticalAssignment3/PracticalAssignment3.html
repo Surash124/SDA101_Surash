@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Design Studio Hero</title>
+
+  <!-- Tailwind Play CDN (for quick prototyping) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+<nav class="w-full bg-gray-200 py-4 px-6 border-b border-gray-420">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="text-xl font-extrabold tracking-widest uppercase text-gray-800">
+            DESIGN
+        </div>
+
+        <button class="text-gray-800 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+<!-- 1 -->
+<section class="bg-gray-400 flex items-center justify-center min-h-screen">
+  <div class="relative max-w-5xl mx-auto px-6">
+    
+    <!-- rock -->
+    <div class="relative flex items-center justify-center bg-gray-500">
+      
+      <!-- (1) White rectangle - mid right -->
+      <div class="absolute right-0 top-1/2 -translate-y-1/2 w-80 h-[600px] bg-white translate-x-12 hidden md:block"></div>
+   
+      <!-- (2) Image and card container - centered -->
+      <div class="relative">
+        <!-- Image area -->
+        <div class="bg-gray-200 shadow-lg rounded-sm overflow-hidden relative z-10">
+          <img src="first.jpg" alt="Interior Design" class="w-[940px] h-[500px] object-cover">
+        </div>
+
+        <!-- Bottom-left text box -->
+        <div class="absolute -bottom-40 -left-10 bg-white shadow-lg p-8 w-80 z-20">
+          <div class="text-xs uppercase text-gray-400 font-semibold mb-2">Design Studio</div>
+          <h1 class="text-2xl md:text-3xl font-extrabold leading-tight text-gray-900">
+            We Create a Comfortable Interior Design
+          </h1>
+          <p class="mt-3 text-xs text-gray-500">
+            Image from <a href="#" class="text-indigo-600 underline">Freepik</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 2 -->
+<section class="bg-gray-100 min-h-screen flex flex-col items-center justify-center px-8 pt-32 pb-16 space-y-16">
+  <!-- Upper Div  -->
+  <div class="grid grid-cols-2 gap-10 max-w-6xl w-full">
+    <!-- Left Text -->
+    <div>
+      <h2 class="text-2xl font-bold mb-4">Discuss Your Project</h2>
+      <p class="text-gray-600 mb-4">
+        We offer our clients a complete turnkey house solution from conception through to completion
+        focused on specialist craftsmanship and championing British design.
+      </p>
+    </div>
+
+    <!-- Right Text -->
+<div class="relative flex flex-col justify-center items-end text-right">
+  <p class="text-gray-600 mb-4">
+    We invite you to make contact with our interior design studio to collaborate or enquire about a project.
+  </p>
+  <button class="absolute bottom-0 right-0 bg-black text-white px-6 py-3 uppercase text-sm tracking-wider hover:bg-gray-800">
+    Request a Consultation
+  </button>
+</div>
+
+  </div>
+
+  <!-- Lower Div -->
+  <div class="grid grid-cols-3 gap-10 max-w-6xl w-full">
+    
+    <!-- First Column -->
+    <div>
+      <img src="tenth.jpg" alt="chair" class="rounded-lg mb-6">
+      <div>
+        <h3 class="font-bold text-lg mb-2">Cozy Minimalism is Everywhere These Days</h3>
+        <p class="text-gray-600">
+          Put simply, cozy minimalism is a reaction to extremes. A few decades ago, interior design followed
+          the motto of 'more is more.'
+        </p>
+      </div>
+    </div>
+
+    <!-- Middle Column -->
+ <div class="flex flex-col items-center">
+  <img src="eleventh.png" alt="living room" class="rounded-lg my-auto w-[580px] h-[375px] object-cover">
+</div>
+
+
+    <!-- Last Column -->
+    <div class="flex flex-col justify-between">
+      <div class="text-center">
+        <h3 class="font-bold text-lg mb-2">Create a Warm & Cozy Home on a Budget</h3>
+        <p class="text-gray-600">
+          The curved lines of the furniture, the soft fabrics, and traditional architectural details create a
+          sense of familiarity which makes people feel at ease.
+        </p>
+      </div>
+      <img src="ninth.png" alt="sofa" class="rounded-lg mt-6">
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- 3 -->
+<div class="max-w-2xl mx-auto py-20 px-4 text-center">
+    
+    <h1 class="text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
+        Welcome!
+    </h1>
+    
+    <div class="w-16 h-1 bg-gray-900 mx-auto mb-10"></div>
+    
+    <p class="text-base text-gray-700 leading-relaxed mb-12">
+        Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.
+    </p>
+    
+    <a href="#" class="inline-block px-8 py-3 text-sm font-medium uppercase tracking-wider border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition duration-300">
+        LEARN MORE
+    </a>
+    
+</div>
+
+<!-- 4 -->
+<div class="max-w-4xl mx-auto my-16 bg-white shadow-lg rounded-lg overflow-hidden flex flex-col lg:flex-row">
+        
+        <div class="lg:w-1/2">
+            <img src="second.png" alt="Interior design concept image" class="w-full h-full object-cover">
+        </div>
+        
+        <div class="lg:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+            
+            <div class="mb-8 md:mb-10 pb-8 md:pb-10 border-b border-gray-200">
+                
+                <div class="flex justify-end mb-4">
+                    <svg class="h-8 w-8 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" /> <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 12h16M4 16h16" /> <path stroke-linecap="round" stroke-linejoin="round" d="M12 9h.01M12 13h.01M12 17h.01" /> </svg>
+                </div>
+                
+                <div class="text-right">
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 uppercase tracking-wide mb-2">
+                        Concept Design
+                    </h2>
+                    <p class="text-gray-700 text-sm md:text-base leading-relaxed">
+                        Non-orthodox solutions and new ideas are the main outcomes of this stage. Each project have different circumstances, thus we provide optimum solutions in a creative manner.
+                    </p>
+                </div>
+            </div>
+            
+            <div>
+                
+                <div class="flex justify-start mb-4">
+                    <svg class="h-8 w-8 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4h18" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v16M4 4c0 4 2 8 7 8s7-4 7-8" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20 4v16M20 4c0 4-2 8-7 8s-7-4-7-8" />
+</svg>
+                </div>
+                
+                <div class="text-left">
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 uppercase tracking-wide mb-2">
+                        Space Planning
+                    </h2>
+                    <p class="text-gray-700 text-sm md:text-base leading-relaxed">
+                        Either refurbishment or newly built, we work on re-organizing the layout in a neat and clear way. Providing the best opportunity for efficient spatial experience is the goal of this stage.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- 5 -->
+<main>
+    <div class="max-w-4xl mx-auto py-20 px-8" style="background-color: #f5f6f7;"> 
+        
+        <div class="text-left"> 
+            
+            <h1 class="text-5xl font-extrabold mb-6 tracking-tight" style="color: #2c3e50;">
+                Interior Design Style
+            </h1>
+            
+            <p class="max-w-2xl text-base text-gray-700 leading-relaxed mb-10">
+                Minimalist style, as the name itself illustrates the simplified forms! Being a minimalist its isn't about having less, but it's about showing less! Minimalism is eventually defined by its sense of functionality & ultra-clean lines.
+            </p>
+            <a href="#" class="inline-block px-8 py-3 text-sm font-medium uppercase tracking-wider border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition duration-300">
+                LEARN MORE
+            </a>
+            
+        </div>
+        
+    </div>
+</main>
+
+
+<!-- 6 -->
+
+
+<main>
+    <div class="relative max-w-4xl mx-auto my-16 p-4 sm:p-8"> 
+        
+        <div class="relative z-10 flex flex-col md:flex-row gap-4"> 
+            
+            <div class="w-full md:w-1/2">
+                <img src="third.png" alt="Minimalist outdoor lounge area" class="w-full h-auto rounded-lg shadow-xl">
+            </div>
+            
+            <div class="w-full md:w-1/2">
+                <img src="fourth.png" alt="Outdoor armchairs" class="w-full h-auto rounded-lg shadow-xl">
+            </div>
+            
+        </div>
+        
+        <div class="absolute bottom-0 right-0 z-0 bg-gray-300 rounded-lg w-[690px] h-[360px] translate-x-12 translate-y-12">
+        </div>
+        
+    </div>
+</main>
+
+<!-- 7 -->
+
+<main class="relative min-h-screen bg-gray-400 p-8 md:p-12 lg:p-16">
+
+    <div class="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 lg:gap-10">
+
+        <div class="md:col-span-8 lg:col-span-6 md:col-start-3 lg:col-start-4 bg-white p-6 md:p-8 rounded-lg shadow-lg relative z-20">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Our Projects</h2>
+            <p class="text-sm text-gray-500 mb-4">Images from Freepik</p>
+            <p class="text-base text-gray-700 leading-relaxed mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="inline-block px-6 py-2 text-sm font-medium uppercase tracking-wider border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition duration-300">LEARN MORE</a>
+        </div>
+
+        <div class="md:col-span-8 lg:col-span-6 md:row-start-2 lg:row-start-2 relative z-10 -mt-28 md:-mt-36 lg:-mt-48">
+  <img src="fifth.jpg" alt="Minimalist living room"
+       class="w-[80%] max-h-[400px] object-cover rounded-lg shadow-xl mx-auto transform -translate-y-4">
+</div>
+
+
+
+
+   <div class="md:col-span-5 lg:col-span-4 md:col-start-8 lg:col-start-9 relative z-10 -mt-24 md:mt-12 lg:-mt-10">
+  <img src="sixth.jpg" alt="Wooden console table and stairs"
+       class="w-[120%] h-auto rounded-lg shadow-xl transform scale-150 -translate-x-10">
+</div>
+
+       <div class="md:col-span-6 lg:col-span-4 md:col-start-3 lg:col-start-4 md:row-start-3 lg:row-start-3 relative z-20 mt-8 md:mt-12 lg:mt-16 translate-x-32 -translate-y-16">
+  <img src="seventh.avif" alt="Modern kitchen island"
+       class="w-[75%] h-auto rounded-lg shadow-xl mx-auto">
+</div>
+
+
+
+        <div class="md:col-span-5 lg:col-span-4 md:col-start-7 lg:col-start-8 md:row-start-4 lg:row-start-4 relative z-10 -mt-24 md:-mt-40 lg:-mt-48 translate-x-16">
+  <img src="eightth.jpg" alt="Woman cooking in kitchen"
+       class="w-full h-auto rounded-lg shadow-xl">
+</div>
+
+
+        <div class="md:col-span-6 lg:col-span-5 md:row-start-5 lg:row-start-5 relative z-10 -mt-24 md:-mt-32 lg:-mt-40 ml-4 border-l-4 border-gray-400 pl-6 py-2">
+            <p class="text-base text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+    </div>
+</main>
+
+<!-- 8 -->
+<section class="py-12 bg-white">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-3">Latest Projects</h2>
+    <p class="text-center text-gray-500 mb-8">Phasellus scelerisque sed leo quis gravida. Fusce lobortis libero ut arcu blandit pharetra.</p>
+
+    <!-- two-column layout -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- LEFT column -->
+      <div class="flex flex-col gap-6">
+        <!-- UP (small image bottom-right) -->
+        <div class="relative h-40 md:h-48 overflow-hidden rounded-lg bg-gray-50">
+          <!-- background/placeholder (optional) -->
+          <img src="twelveth.png" alt="small top" class="absolute bottom-0 right-0 w-2/3 md:w-1/2 h-auto object-cover rounded-lg shadow-lg transform translate-x-4 translate-y-4">
+        </div>
+
+        <!-- DOWN (main left image) -->
+        <div class="relative h-64 md:h-80 overflow-hidden rounded-lg">
+          <img src="fourteenth.png" alt="left main" class="w-full h-full object-cover rounded-lg shadow-xl">
+        </div>
+      </div>
+
+      <!-- RIGHT column -->
+      <div class="flex flex-col gap-6">
+        <!-- UP (big right image) -->
+        <div class="relative h-80 md:h-96 overflow-hidden rounded-lg">
+          <img src="thirteenth.png" alt="right main" class="w-full h-full object-cover rounded-lg shadow-xl">
+        </div>
+
+        <!-- DOWN (small image top-left) -->
+        <div class="relative h-40 md:h-48 overflow-hidden rounded-lg bg-gray-50">
+          <img src="fifteenth.png" alt="small bottom" class="absolute top-0 left-0 w-2/3 md:w-1/2 h-auto object-cover rounded-lg shadow-lg transform -translate-x-4 -translate-y-4">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- 9 -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+    <div class="grid md:grid-cols-2 gap-12 relative">
+
+        <div class="hidden md:block absolute top-0 right-0 w-[900px] h-[230px] bg-gray-300 -z-10 rounded-lg"></div>
+
+
+        
+        <div class="md:col-span-1 pr-8 mt-16">
+    <h1 class="text-4xl font-extrabold text-gray-900 mb-6">
+        Contact Us
+    </h1>
+    <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+        You are always welcome to contact us. Our Customer Service is available 
+        Mon-Fri 9:00 a.m.–8:00 p.m. and Sat-Sun 10:00 a.m.–6:00 p.m. (GMT +3). 
+        We look forward to hearing from you!
+    </p>
+
+    <form class="space-y-4">
+        <input type="text" placeholder="Enter Your Name" class="w-full p-4 border border-gray-300 bg-gray-200 placeholder-gray-500 text-gray-800 focus:outline-none focus:ring-2 focus:ring-black">
+        <input type="email" placeholder="Enter a valid email address" class="w-full p-4 border border-gray-300 bg-gray-200 placeholder-gray-500 text-gray-800 focus:outline-none focus:ring-2 focus:ring-black">
+        <textarea placeholder="Enter your message" rows="5" class="w-full p-4 border border-gray-300 bg-gray-200 placeholder-gray-500 text-gray-800 resize-none focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+        <button type="submit" class="w-full bg-black text-white p-4 uppercase font-semibold tracking-wider hover:bg-gray-800 transition duration-300">
+            SUBMIT
+        </button>
+    </form>
+</div>
+
+
+        <div class="md:col-span-1 relative h-full min-h-[500px]">
+            
+            <div class="absolute bottom-0 right-0 w-360 h-96 bg-gray-600 translate-x-1/4 translate-y-1/4"></div>
+
+            <div class="relative">
+      <div class="relative">
+  <div class="absolute bottom-[-50px] left-4 bg-gray-200 w-[400px] h-[500px] transform translate-x-2 translate-y-2 -z-10 rounded-lg"></div>
+
+
+  <iframe 
+    src="https://www.google.com/maps?q=New+York,+USA&output=embed"
+    class="w-[400px] h-[700px] rounded-lg shadow-lg border-0">
+  </iframe>
+</div>
+        </div>
+    </div>
+</section>
+
+
+<!-- 10 -->
+  <footer class="bg-black text-white grid grid-cols-1 md:grid-cols-3 gap-8 py-10 px-8 mt-16">
+    <div>
+      <h3 class="text-lg font-semibold mb-2">Headline</h3>
+      <p class="text-sm text-gray-300">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam justo sagittis suscipit ultrices.</p>
+    </div>
+    <div>
+      <h3 class="text-lg font-semibold mb-2">Headline</h3>
+      <p class="text-sm text-gray-300">Sample footer text</p>
+    </div>
+    <div>
+      <h3 class="text-lg font-semibold mb-2">Headline</h3>
+      <p class="text-sm text-gray-300">Sample footer text</p>
+    </div>
+  </footer>
+
+</body>
+</html>
